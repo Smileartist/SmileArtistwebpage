@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style type="text/css">
+      *{padding: 0; margin:0; box-sizing: border-box;}
+      
+      header{
+          width: 100%;
+          font-family: cursive;
+          /* background-image: store.jpg; */
+      }
+      body {margin:0;
+      background-image: url(backgroung.jpg);
+    
+    }
+    nav{
+            width: 100%;
+            height: 100px;
+            color: rgb(9, 218, 12);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        
+       
+         .menu a{
+            text-decoration: none;
+            color: rgb(13, 0, 0);
+            padding: 15px 20px;
+            font-size: 25px;
+            position: relative;
+         }
+         .menu a:before{
+            content: '';
+            position: absolute;
+            top:0;
+            left:0;
+            width:0%;
+            height:100%;
+            border-bottom: 2px solid indianred;
+            transition: 0.4s linear;
+        }
+        .menu a:hover{
+            width: 90;
+            border:1px solid indianred;
+        }
+         .register a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            font-size: 20px;
+            background: indianred;
+            border-radius: 8px;
+            transition:0.4s linear;
+            
+         }
+         .register a:hover{
+            background:rgb(22, 22, 11);
+            border:1px solid rgb(200, 18, 18);}
+          .logo{
+            align-items: center;
+            position: relative;
+            padding-right: 0%;
+          }
+
+      
+      .alignctr{
+        text-align: center;
+      }
+      
+
+      </style>
+    
+</head>
+<body >
+  <header>
+    <nav>
+      <div class="logo">
+        
+      </div>
+ 
+        <div class="menu">
+            <a href="#"> &#8962;Home</a>
+            <a href="#">Memes</a>
+            <a href="#">Video Memes</a>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div> 
+        </div>
+        
+        <div class="register">
+            <a href="#">Subscribe</a>
+        </div>
+    </nav>
+   </header>
+  
+    <center><H1 style="color: rgba(24, 219, 66, 0.871);   font-family: cursive;padding: auto;">Hi I'm Smile Artist</H1></center>
+    <hr color="blue">
+    <center><H1 style="color: rgb(22, 202, 243); font-family: cursive;padding: auto;">Come laugh with me....!!</H1></center>
+
+    <hr color="blue">    
+    <p class="alignctr">
+    <img src="pngimg.com - minions_PNG82.png" alt="image not available" height="" width="">
+    </p>
+    
+</body>
+</html>

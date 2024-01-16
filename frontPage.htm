@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+      *{padding: 0; margin:0; box-sizing: border-box;}
+      
+      header{
+          width: 100%;
+          font-family: cursive;          
+          /* background-image: store.jpg; */
+      }
+      body {margin:0;
+      background-image: url(backgroung.jpg);
+    
+    }
+    nav{
+            width: 100%;
+            height: 100px;
+            color: rgb(9, 218, 12);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        
+       
+         .menu a{
+            text-decoration: none;
+            color: rgb(13, 0, 0);
+            padding: 15px 20px;
+            font-size: 25px;
+            position: relative;
+         }
+         .menu a:before{
+            content: '';
+            position: absolute;
+            top:0;
+            left:0;
+            width:0%;
+            height:100%;
+            border-bottom: 2px solid indianred;
+            transition: 0.4s linear;
+        }
+        .menu a:hover{
+            width: 90;
+            border:1px solid indianred;
+        }
+         .register a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            font-size: 20px;
+            background: indianred;
+            border-radius: 8px;
+            transition:0.4s linear;
+            
+         }
+         .register a:hover{
+            background:rgb(22, 22, 11);
+            border:1px solid rgb(200, 18, 18);}
+
+      
+      .alignctr{
+        text-align: center;
+      }
+      .register{
+        align-items: center;
+      }
+      footer{
+        background-color: grey;
+        text-align: center;}
+     .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: rgb(49, 46, 46);
+     color: white;
+     text-align: center;
+     }
+     .footer a:hover{
+            background:rgb(22, 22, 11);
+            border:1px solid rgb(200, 18, 18);
+         }
+         .footer a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            border-radius: 8px;
+            transition:0.4s linear;
+            
+         }        
+    </style>
+    
+</head>
+<body >
+  <header>
+    <nav>
+        <div class="menu">
+            <a href="frontPage.htm"> 	<i class="fa fa-home"></i>Home</a>
+            <a href="memes.htm">Memes</a>
+            <a href="contactPage.htm">Contact Us</a>
+        </div>
+    </nav>
+   </header>
+   <hr color="black">
+    <center><H1 style="color: rgba(0, 0, 0, 0.871);   font-family: cursive;padding: auto;">Hi I'm Smile Artist</H1></center><br>
+    <center><H1 style="color: rgb(0, 0, 0); font-family: cursive;padding: auto;">Come laugh with me....!!</H1></center>
+    <br>
+    <div class="alignctr">
+    <img src="pngimg.com - minions_PNG82.png" alt="image not available" height="" width="">
+    </div>
+    <br>
+    <center>
+      <a href="logo.jpg"><img src="logo.jpg" width="9%" height=""></a>
+    </center>
+    <br>
+    <div class="register">
+      <center><a href="signup.htm">Sign Up</a></center>
+    </div>
+    <br><br><br><br> <br><br><br><br> 
+    <div class = "footer">
+      <a href="#"> &copy;Copyright</a>
+    </div>
+    
+    
+</body>
+</html>

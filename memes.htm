@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memes</title>
+  <style>
+    body{
+      box-sizing: border-box; padding: 0;margin: 0;
+    }
+    header{
+          width: 100%;
+          font-family: cursive;          
+          /* background-image: store.jpg; */
+      }
+      body {margin:0;
+      background-image: url(backgroung.jpg);
+    
+    }
+    nav{
+            width: 100%;
+            height: 100px;
+            color: rgb(9, 218, 12);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        
+       
+         .menu a{
+            text-decoration: none;
+            color: rgb(13, 0, 0);
+            padding: 15px 20px;
+            font-size: 25px;
+            position: relative;
+         }
+         .menu a:before{
+            content: '';
+            position: absolute;
+            top:0;
+            left:0;
+            width:0%;
+            height:100%;
+            border-bottom: 2px solid indianred;
+            transition: 0.4s linear;
+        }
+        .menu a:hover{
+            width: 90;
+            border:1px solid indianred;
+        }
+        .align{
+          align-items: center;
+        }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="menu">
+            <a href="frontPage.htm"> 	<i class="fa fa-home"></i>Home</a>
+            <a href="memes.htm">Memes</a>
+            <a href="contactPage.htm">Contact us</a>
+        </div>
+    </nav>
+   </header>
+   <hr color="black">
+  <center><div class ="align">
+  <img src="IMG-20240115-WA0007.jpg" alt=" img 1" width="23%" height="">
+  <img src="IMG-20240115-WA0008.jpg" alt=" img 2" width="22%" height="">
+  <img src="IMG-20240115-WA0009.jpg" alt=" img 3" width="22%" height="">
+  
+  </div></center><br>
+  <center><div class ="align">
+    <img src="IMG-20240115-WA0010.jpg" alt=" img 4" width="23%" height="">
+    <img src="IMG-20240115-WA0011.jpg" alt=" img 5" width="22%" height="">
+    <img src="IMG-20240115-WA0019.jpg" alt=" img 6" width="22%" height="">
+    
+    </div></center><br>
+    <center><div class ="align">
+      <img src="IMG-20240115-WA0021.jpg" alt=" img 7" width="23%" height="">
+      </div></center><br>
+  
+</body>
+</html>
